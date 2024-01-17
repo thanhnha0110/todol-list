@@ -18,7 +18,14 @@ What happens if the client accesses from different time zones? For example, when
 In addition, when the user creates a timestamp, we also convert it to Unix time units according to ISO-8601 standard to contain the offset information 2017–03–10T11:30:00+09:00. What we do in specialized terminology often uses two words to describe: parsing and formatting
 
 ## Usage
-In root folder
+At the root directory, run the command below to initialize localhost:
+```
+php artisan serve
+```
+Open the browser, enter route to see the results:
+```
+http://127.0.0.1:8000/timezones/UTC
+```
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
