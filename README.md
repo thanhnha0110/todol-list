@@ -5,7 +5,7 @@ Get timezone by PHP
 
 ## Installation
 ```
-composer required nhanguyen/timezone
+composer create-project nhanguyen/timezones
 ```
 <br />
 
