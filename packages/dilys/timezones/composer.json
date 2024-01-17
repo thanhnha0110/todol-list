@@ -1,0 +1,16 @@
+{
+    "name": "dilys/timezones",
+    "description": "Demo-package to show time",
+    "autoload": {
+        "psr-4": {
+            "Dilys\\Timezones\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dilys",
+            "email": "thanhnha.athena@gmail.com"
+        }
+    ],
+    "require": {}
+}

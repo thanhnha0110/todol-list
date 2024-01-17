@@ -1,0 +1,16 @@
+{
+    "name": "nhanguyen/hello",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Nhanguyen\\Hello\\": "packages/nhanguyen/hello/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nha Nguyen",
+            "email": "nha.nguyen@apps-cyclone.com"
+        }
+    ],
+    "require": {}
+}
